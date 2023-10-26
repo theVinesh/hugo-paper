@@ -1754,16 +1754,6 @@ article blockquote {
   margin-bottom: 0px;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.hover\:animate-spin:hover {
-  animation: spin 1s linear infinite;
-}
-
 .hover\:bg-black\/\[2\%\]:hover {
   background-color: rgb(0 0 0 / 2%);
 }
